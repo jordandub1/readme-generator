@@ -1,10 +1,11 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const Choices = require("inquirer/lib/objects/choices");
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // TODO: Create an array of questions for user input
-const questions = () => {
-    return inquirer.prompt([
+const userInput = [
       {
         type: 'input',
         name: 'title',
@@ -12,23 +13,8 @@ const questions = () => {
       },
       {
         type: 'input',
-        name: 'descriptionMotivation',
-        message: 'What was your motivation for this project?',
-      },
-      {
-        type: 'input',
-        name: 'descriptionWhy',
-        message: 'Why did you build this project?',
-      },
-      {
-        type: 'input',
-        name: 'descriptionSolve',
-        message: 'What problem did this project solve?',
-      },
-      {
-        type: 'input',
-        name: 'descriptionLearn',
-        message: 'What did you learn building this project?',
+        name: 'description',
+        message: 'Please enter a description of your project to include why you created the project, what problem(s) did it solve, and what you learned while creating it.',
       },
       {
         type: 'input',
@@ -44,7 +30,7 @@ const questions = () => {
         type: 'list',
         message: 'What is your preferred method of communication?',
         name: 'license',
-        choices: ['None', 'Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'BSD 2-Clause "Simplified" License', 'BSD 3-Clause "New" or "Revised" License', 'Boost Software License 1.0', 'Creative Commons Zero v1.0 Universal', 'Eclipse Public License 2.0', 'GNU Affero General Public License v3.0', 'GNU General Public License v2.0', 'GNU Lesser General Public License v2.1', 'Mozilla Public License 2.0', 'The Unlicense'],
+        choices: ['None', 'Apache 2.0', 'MIT', 'BSD 3', 'ISC', 'GPL 3.0'],
       },
       {
         type: 'input',
@@ -66,14 +52,29 @@ const questions = () => {
         name: 'email',
         message: 'What is your email address?',
       },
-    ]);
-  };
+];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, (err) => {
+  err ? console.log(err) : console.log("Success");
+  });
+};
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  const output = './output';
+  if((fs.existsSync(output)) !== true) {
+      fs.mkdirSync(output);
+  }
+  questions().then(data => {
+      writeToFile(output + "/README.md", generateMarkdown(data));
+  })
+};
+
+function questions() {
+  return inquirer.prompt(userInput);
+};
 
 // Function call to initialize app
 init();
