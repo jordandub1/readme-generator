@@ -1,9 +1,9 @@
-# name
+# README.md Generator
 
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  iwognjferiog
+  Here is my description
 
   ## Table of Contents
 
@@ -19,28 +19,28 @@
 
   To install necessary dependencies, please run the following command:
   ```
-  eiowfjwoirghj
+  follow these steps
   ```
 
   ## Usage
-  iodsgahoireawgj
+  instructions listed here
   ## License
-  This project is covered under the Apache 2.0 license. Visit the following link for more information on this license: [Apache 2.0](https://opensource.org/licenses/Apache-2.0)
+  This project is covered under the MIT license. Visit the following link for more information on this license: [MIT](https://opensource.org/licenses/MIT)
 
   ## Contributing
-  jioewgfjeiworgj
+  feel free to debug
 
   ## Tests
   To test, please run the following command:
   ```
-  joiewgjfiowrgj
+  here is a section for testing
   ```
 
   ## Questions
   For any questions about the project, please contact me by either of the following links:
   
-  * Email - jfiewjafioerwjg 
+  * Email - jordan.dubose1@gmail.com 
   
   or visit my GitHub profile:
   
-  * GitHub - [iforenjgoiearhg](https://github.com/iforenjgoiearhg)
+  * GitHub - [jordandub1](https://github.com/jordandub1)
