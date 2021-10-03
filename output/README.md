@@ -1,9 +1,9 @@
-# README.md Generator
+# README Generator
 
   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Description
-  I created the README.md Generator to quickly construct a professioal README file for any new project. By utilizing the Inquirer package, I was able to create a series of prompts to collect the necessary user input to write a professional and detailed README file consisting of the following sections: Title of Project, Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions. 
+  I created the README Generator to quickly construct a professional README file for any new project. By utilizing the Inquirer package, I was able to create a series of prompts to collect the necessary user input to write a professional and detailed README file consisting of the following sections: Title of Project, Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions. 
 
   ## Table of Contents
 
@@ -23,7 +23,7 @@
   ```
 
   ## Usage
-  You will need to utilize the Inquirer package for this application. Be sure to answer all of the questions to generate a complete, professional README.md. Please click the link below for a demo: 
+  You will need to utilize the Inquirer package for this application. Be sure to answer all of the questions to generate a complete, professional README.md. Please [click here](https://www.google.com) for a demo.
   ## License
   This project is covered under the Apache 2.0 license. Visit the following link for more information on this license: [Apache 2.0](https://opensource.org/licenses/Apache-2.0)
 
