@@ -23,7 +23,7 @@
   ```
 
   ## Usage
-  You will need to utilize the Inquirer package for this application. Be sure to answer all of the questions to generate a complete, professional README. Please [click here](https://jordandub1.github.io/readme-generator/assets/readme-generator-demo.mov) for a demo.
+  You will need to utilize the Inquirer package for this application. Be sure to answer all of the questions to generate a complete, professional README. Please [click here](https://drive.google.com/file/d/1RSHgtl6yl1TMR6Qs_Lsri5QSftF0WtId/view?usp=sharing) for a demo.
 
   ## License
   This project is covered under the Apache 2.0 license. Visit the following link for more information on this license: [Apache 2.0](https://opensource.org/licenses/Apache-2.0)
