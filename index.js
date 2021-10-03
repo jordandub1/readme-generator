@@ -14,21 +14,21 @@ const userInput = [
       {
         type: 'input',
         name: 'description',
-        message: 'Please enter a description of your project to include why you created the project, what problem(s) did it solve, and what you learned while creating it.',
+        message: 'Please enter a description of your project to include why you created the project, what problem(s) did it solve, and what you learned while creating it:',
       },
       {
         type: 'input',
         name: 'installation',
-        message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
+        message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running:',
       },
       {
         type: 'input',
         name: 'usage',
-        message: 'Provide instructions and examples for use. Include screenshots as needed.',
+        message: 'Provide instructions and examples for use:',
       },
       {
         type: 'list',
-        message: 'What is your preferred method of communication?',
+        message: 'Please choose a license for your project:',
         name: 'license',
         choices: ['None', 'Apache 2.0', 'MIT', 'BSD 3', 'ISC', 'GPL 3.0'],
       },

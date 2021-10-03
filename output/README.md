@@ -1,9 +1,9 @@
 # README.md Generator
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Description
-  Here is my description
+  I created the README.md Generator to quickly construct a professioal README file for any new project. By utilizing the Inquirer package, I was able to create a series of prompts to collect the necessary user input to write a professional and detailed README file consisting of the following sections: Title of Project, Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions. 
 
   ## Table of Contents
 
@@ -19,21 +19,21 @@
 
   To install necessary dependencies, please run the following command:
   ```
-  follow these steps
+  npm install
   ```
 
   ## Usage
-  instructions listed here
+  You will need to utilize the Inquirer package for this application. Be sure to answer all of the questions to generate a complete, professional README.md. Please click the link below for a demo: 
   ## License
-  This project is covered under the MIT license. Visit the following link for more information on this license: [MIT](https://opensource.org/licenses/MIT)
+  This project is covered under the Apache 2.0 license. Visit the following link for more information on this license: [Apache 2.0](https://opensource.org/licenses/Apache-2.0)
 
   ## Contributing
-  feel free to debug
+  
 
   ## Tests
   To test, please run the following command:
   ```
-  here is a section for testing
+  npm test
   ```
 
   ## Questions
